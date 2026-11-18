@@ -71,7 +71,7 @@ function App() {
               <p>Me gusta entender cómo funcionan las cosas y encontrar formas simples de resolver problemas complejos.
                  Combino criterio de ingeniería con atención a la experiencia de las personas.</p>
               <p>Actualmente estoy profundizando en desarrollo web y construyendo proyectos que conectan buenas ideas con tecnología práctica.</p>
-              <!-- <a className="text-link" href="mailto:erickandrehernandezortiz@gmail.com">Conoce más de mí <Arrow diagonal /></a> -->
+              {/* <a className="text-link" href="mailto:erickandrehernandezortiz@gmail.com">Conoce más de mí <Arrow diagonal /></a> */}
             </div>
           </div>
           <div className="skills-row"><span className="skills-label">HERRAMIENTAS QUE USO</span><div className="skill-list">{skills.map((skill) => <span key={skill}>{skill}</span>)}</div></div>
