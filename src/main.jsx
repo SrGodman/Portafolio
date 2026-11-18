@@ -11,6 +11,7 @@ const projects = [
     kind: 'PRIMER PROYECTO · JAVA',
     description: 'Mi primer proyecto de programación y el lugar donde aprendí a trabajar con Java. Es una aplicación bancaria de escritorio con registro e inicio de sesión, transferencias entre usuarios, historial de movimientos y carga de saldo a tarjetas. Usa Swing, Maven y SQLite.',
     tags: ['Java', 'Swing', 'SQLite', 'JDBC', 'Maven'],
+    href: 'https://github.com/SrGodman/Proyecto-Progra',
     mark: '01',
   },
   {
