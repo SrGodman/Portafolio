@@ -2,16 +2,16 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
 
-const skills = ['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git']
+const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git']
 
 const projects = [
   {
     number: '01',
-    name: 'Proyecto destacado',
-    kind: 'APLICACIÓN WEB · 2025',
-    description: 'Describe aquí el problema que resuelve este proyecto, qué parte desarrollaste y qué resultado obtuviste.',
-    tags: ['React', 'API REST', 'PostgreSQL'],
-    href: 'https://github.com/',
+    name: 'Sistema de Multas de Tránsito',
+    kind: 'APLICACIÓN DE ESCRITORIO · JAVA',
+    description: 'Sistema de escritorio para registrar multas, administrar infracciones y consultar reportes. Usa Java Swing, JDBC y PostgreSQL; incluye generación de tablas y catálogo inicial.',
+    tags: ['Java', 'Swing', 'JDBC', 'PostgreSQL', 'Ant'],
+    href: 'https://github.com/SrGodman/Proyeto-de-multas-de-transito',
     mark: '01',
   },
   {
