@@ -29,24 +29,6 @@ Actualmente estoy profundizando en desarrollo web y ampliando mi experiencia med
 
 El sitio está construido con **React** y **Vite**. Mi conjunto de herramientas incluye Java, JavaScript, React, PostgreSQL, SQL, Git, Python, C# y C++.
 
-## Personalización
-
-- Edita `src/main.jsx` para actualizar el contenido, las habilidades, los proyectos y los enlaces personales.
-- Edita `src/style.css` para ajustar colores, tipografía y distribución visual.
-- Edita `index.html` para actualizar el título y la descripción que aparecen en buscadores.
-
-Antes de publicar, reemplaza el correo de ejemplo del botón de contacto por la dirección correcta.
-
-## Publicación
-
-El repositorio incluye un flujo de GitHub Actions que construye el sitio y lo publica en GitHub Pages al subir cambios a `main` o `master`.
-
-1. Sube el repositorio a GitHub.
-2. En **Settings → Pages**, selecciona **GitHub Actions** como origen de publicación.
-3. Haz push a `main` o `master`, o ejecuta manualmente el flujo desde la pestaña **Actions**.
-
-La URL publicada estará disponible en **Settings → Pages** y en el resultado del flujo.
-
 ## Contacto
 
 - GitHub: [@SrGodman](https://github.com/SrGodman)
