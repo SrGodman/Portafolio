@@ -29,22 +29,6 @@ Actualmente estoy profundizando en desarrollo web y ampliando mi experiencia med
 
 El sitio está construido con **React** y **Vite**. Mi conjunto de herramientas incluye Java, JavaScript, React, PostgreSQL, SQL, Git, Python, C# y C++.
 
-## Ejecutar localmente
-
-Necesitas [Node.js 22](https://nodejs.org/) y npm.
-
-```bash
-npm install
-npm run dev
-```
-
-Vite mostrará en la terminal la dirección local para abrir el sitio. Para generar una versión de producción:
-
-```bash
-npm run build
-npm run preview
-```
-
 ## Personalización
 
 - Edita `src/main.jsx` para actualizar el contenido, las habilidades, los proyectos y los enlaces personales.
