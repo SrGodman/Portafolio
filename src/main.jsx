@@ -47,7 +47,7 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow"><span>INGENIERÍA</span><b>·</b><span>DESARROLLO DE SOFTWARE</span></p>
             <h1>Convierto<br />ideas en <em>software</em><span className="period">.</span></h1>
-            <p className="hero-intro">Hola, soy <strong>Tu Nombre</strong>. Ingeniero desarrollador de software enfocado en crear productos digitales útiles, claros y bien construidos.</p>
+            <p className="hero-intro">Hola, soy <strong>Erick André Hernández Ortiz</strong>. Ingeniero desarrollador de software enfocado en crear productos digitales útiles, claros y bien construidos.</p>
             <div className="hero-actions">
               <a className="button button-light" href="#proyectos">Ver proyectos <Arrow /></a>
               <a className="text-link" href="#contacto">Hablemos <Arrow diagonal /></a>
@@ -92,7 +92,7 @@ function App() {
         <section className="contact section-wrap" id="contacto">
           <div className="section-heading"><p className="eyebrow">03 / CONTACTO</p><span className="rule" /></div>
           <div className="contact-content"><p className="eyebrow">¿TIENES UN PROYECTO EN MENTE?</p><h2>Hagamos algo<br /><em>que importe.</em></h2><a className="button button-accent" href="mailto:tu.correo@ejemplo.com">Escríbeme <Arrow diagonal /></a></div>
-          <footer><a className="wordmark" href="#inicio">ES<span>.</span></a><span>Diseñado y construido con intención.</span><div className="socials"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a></div><span className="copyright">© 2026</span></footer>
+          <footer><a className="wordmark" href="#inicio">ES<span>.</span></a><span>Diseñado y construido con intención.</span><div className="socials"><a href="https://github.com/SrGodman" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a><a href="https://www.linkedin.com/in/erick-andr%C3%A9-hern%C3%A1ndez-ortiz-06a3b0419/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a></div><span className="copyright">© 2026</span></footer>
         </section>
       </main>
     </>
