@@ -1,27 +1,69 @@
-# Portafolio de desarrollador
+# Portafolio de Erick André Hernández Ortiz
 
-Sitio personal creado con React y Vite. El despliegue a GitHub Pages se realiza automáticamente con GitHub Actions.
+> ### Ideas claras. Tecnología práctica. Impacto real.
+>
+> Portafolio personal de ingeniería y desarrollo de software, enfocado en crear productos digitales útiles, claros y bien construidos.
+
+Este sitio presenta mi forma de trabajar: entender el problema, explorar soluciones y convertir buenas ideas en software práctico. Reúne una selección de proyectos, las tecnologías con las que trabajo y una vía de contacto.
+
+## Visión
+
+Creo que el buen software combina criterio de ingeniería con atención a las personas que lo usan. Me interesa resolver problemas complejos de forma simple, aprender construyendo y desarrollar productos digitales con intención y utilidad.
+
+Actualmente estoy profundizando en desarrollo web y ampliando mi experiencia mediante proyectos propios.
+
+## Contenido
+
+- **Sobre mí:** mi enfoque, intereses y herramientas.
+- **Proyectos:** aplicaciones que reflejan mi aprendizaje y experiencia práctica.
+- **Contacto:** enlaces para conversar sobre oportunidades o proyectos.
+
+### Proyectos destacados
+
+| Proyecto | Descripción | Tecnologías |
+| --- | --- | --- |
+| [Banco Chepito](https://github.com/SrGodman/Proyecto-Progra) | Aplicación bancaria de escritorio con usuarios, transferencias, movimientos y carga de saldo. | Java, Swing, SQLite, JDBC, Maven |
+| [Sistema de Multas de Tránsito](https://github.com/SrGodman/Proyeto-de-multas-de-transito) | Aplicación para registrar multas, administrar infracciones y consultar reportes. | Java, Swing, JDBC, PostgreSQL, Ant |
+
+## Tecnologías
+
+El sitio está construido con **React** y **Vite**. Mi conjunto de herramientas incluye Java, JavaScript, React, PostgreSQL, SQL, Git, Python, C# y C++.
 
 ## Ejecutar localmente
 
-Necesitas Node.js 22 y npm instalados.
+Necesitas [Node.js 22](https://nodejs.org/) y npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Personalizar
+Vite mostrará en la terminal la dirección local para abrir el sitio. Para generar una versión de producción:
 
-- En `src/main.jsx`, cambia `Tu Nombre`, correo, habilidades, proyectos y enlaces.
-- En `index.html`, actualiza el título y la descripción para buscadores.
-- En `src/style.css`, puedes ajustar colores, tipografía y distribución.
+```bash
+npm run build
+npm run preview
+```
 
-## Publicar en GitHub Pages
+## Personalización
 
-1. Sube este repositorio a GitHub.
-2. En el repositorio, abre **Settings → Pages**.
-3. En **Build and deployment**, selecciona **GitHub Actions** como origen.
-4. Haz push a `main` o `master`. El workflow construye el sitio y lo publica.
+- Edita `src/main.jsx` para actualizar el contenido, las habilidades, los proyectos y los enlaces personales.
+- Edita `src/style.css` para ajustar colores, tipografía y distribución visual.
+- Edita `index.html` para actualizar el título y la descripción que aparecen en buscadores.
 
-La URL aparecerá en **Settings → Pages** y en el resultado del workflow de GitHub Actions.
+Antes de publicar, reemplaza el correo de ejemplo del botón de contacto por la dirección correcta.
+
+## Publicación
+
+El repositorio incluye un flujo de GitHub Actions que construye el sitio y lo publica en GitHub Pages al subir cambios a `main` o `master`.
+
+1. Sube el repositorio a GitHub.
+2. En **Settings → Pages**, selecciona **GitHub Actions** como origen de publicación.
+3. Haz push a `main` o `master`, o ejecuta manualmente el flujo desde la pestaña **Actions**.
+
+La URL publicada estará disponible en **Settings → Pages** y en el resultado del flujo.
+
+## Contacto
+
+- GitHub: [@SrGodman](https://github.com/SrGodman)
+- LinkedIn: [Erick André Hernández Ortiz](https://www.linkedin.com/in/erick-andr%C3%A9-hern%C3%A1ndez-ortiz-06a3b0419/)
