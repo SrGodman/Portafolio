@@ -71,7 +71,7 @@ function App() {
               <p>Me gusta entender cómo funcionan las cosas y encontrar formas simples de resolver problemas complejos.
                  Combino criterio de ingeniería con atención a la experiencia de las personas.</p>
               <p>Actualmente estoy profundizando en desarrollo web y construyendo proyectos que conectan buenas ideas con tecnología práctica.</p>
-              <a className="text-link" href="mailto:erickandrehernandezortiz@gmail.com">Conoce más de mí <Arrow diagonal /></a>
+              <!-- <a className="text-link" href="mailto:erickandrehernandezortiz@gmail.com">Conoce más de mí <Arrow diagonal /></a> -->
             </div>
           </div>
           <div className="skills-row"><span className="skills-label">HERRAMIENTAS QUE USO</span><div className="skill-list">{skills.map((skill) => <span key={skill}>{skill}</span>)}</div></div>
@@ -79,7 +79,8 @@ function App() {
 
         <section className="projects section-wrap" id="proyectos">
           <div className="section-heading"><p className="eyebrow">02 / TRABAJO SELECCIONADO</p><span className="rule" /></div>
-          <div className="projects-title"><h2>Proyectos con<br /><em>intención.</em></h2><p>Una selección de cosas que he diseñado, construido y aprendido en el camino.</p></div>
+          <div className="projects-title"><h2>Proyectos con<br /><em>intención.</em></h2><p>Una selección de cosas que he diseñado,
+             construido y aprendido en el camino.</p></div>
           <div className="project-list">{projects.map((project) => (
             <article className="project-card" key={project.number}>
               <div className="project-number">{project.number}</div>
@@ -92,8 +93,12 @@ function App() {
 
         <section className="contact section-wrap" id="contacto">
           <div className="section-heading"><p className="eyebrow">03 / CONTACTO</p><span className="rule" /></div>
-          <div className="contact-content"><p className="eyebrow">¿TIENES UN PROYECTO EN MENTE?</p><h2>Hagamos algo<br /><em>que importe.</em></h2><a className="button button-accent" href="mailto:tu.correo@ejemplo.com">Escríbeme <Arrow diagonal /></a></div>
-          <footer><a className="wordmark" href="#inicio">ES<span>.</span></a><span>Diseñado y construido con intención.</span><div className="socials"><a href="https://github.com/SrGodman" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a><a href="https://www.linkedin.com/in/erick-andr%C3%A9-hern%C3%A1ndez-ortiz-06a3b0419/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a></div><span className="copyright">© 2026</span></footer>
+          <div className="contact-content"><p className="eyebrow">¿TIENES UN PROYECTO EN MENTE?</p><h2>Hagamos algo<br />
+          <em>que importe.</em></h2><a className="button button-accent" href="mailto:tu.correo@ejemplo.com">Escríbeme <Arrow diagonal /></a></div>
+          <footer><a className="wordmark" href="#inicio">ES<span>.</span></a><span>Diseñado y construido con intención.</span>
+          <div className="socials"><a href="https://github.com/SrGodman" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a>
+          <a href="https://www.linkedin.com/in/erick-andr%C3%A9-hern%C3%A1ndez-ortiz-06a3b0419/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a></div>
+          <span className="copyright">© 2026</span></footer>
         </section>
       </main>
     </>
