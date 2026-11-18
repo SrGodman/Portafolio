@@ -7,30 +7,20 @@ const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git']
 const projects = [
   {
     number: '01',
-    name: 'Sistema de Multas de Tránsito',
-    kind: 'APLICACIÓN DE ESCRITORIO · JAVA',
-    description: 'Sistema de escritorio para registrar multas, administrar infracciones y consultar reportes. Usa Java Swing, JDBC y PostgreSQL; incluye generación de tablas y catálogo inicial.',
-    tags: ['Java', 'Swing', 'JDBC', 'PostgreSQL', 'Ant'],
-    href: 'https://github.com/SrGodman/Proyeto-de-multas-de-transito',
+    name: 'Banco Chepito',
+    kind: 'PRIMER PROYECTO · JAVA',
+    description: 'Mi primer proyecto de programación y el lugar donde aprendí a trabajar con Java. Es una aplicación bancaria de escritorio con registro e inicio de sesión, transferencias entre usuarios, historial de movimientos y carga de saldo a tarjetas. Usa Swing, Maven y SQLite.',
+    tags: ['Java', 'Swing', 'SQLite', 'JDBC', 'Maven'],
     mark: '01',
   },
   {
     number: '02',
-    name: 'Una idea hecha producto',
-    kind: 'HERRAMIENTA · 2025',
-    description: 'Cuenta brevemente cómo tomaste una idea desde el diseño hasta una solución funcional.',
-    tags: ['JavaScript', 'Node.js', 'UI/UX'],
-    href: 'https://github.com/',
+    name: 'Sistema de Multas de Tránsito',
+    kind: 'APLICACIÓN DE ESCRITORIO · JAVA',
+    description: 'Sistema de escritorio para registrar multas, administrar infracciones y consultar reportes. Usa Java Swing, JDBC y PostgreSQL; genera las tablas y carga el catálogo inicial al conectarse por primera vez.',
+    tags: ['Java', 'Swing', 'JDBC', 'PostgreSQL', 'Ant'],
+    href: 'https://github.com/SrGodman/Proyeto-de-multas-de-transito',
     mark: '02',
-  },
-  {
-    number: '03',
-    name: 'Construido para aprender',
-    kind: 'PROYECTO PERSONAL · 2024',
-    description: 'Puedes incluir un proyecto personal o académico si explica bien tu forma de resolver problemas.',
-    tags: ['Python', 'Automatización'],
-    href: 'https://github.com/',
-    mark: '03',
   },
 ]
 
@@ -93,7 +83,7 @@ function App() {
               <div className="project-number">{project.number}</div>
               <div className="project-info"><p className="eyebrow">{project.kind}</p><h3>{project.name}</h3><p>{project.description}</p><div className="tags">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div>
               <div className={`project-visual visual-${project.mark}`} aria-hidden="true"><span>{project.mark}</span><i /><i /><i /></div>
-              <a className="project-link" href={project.href} target="_blank" rel="noreferrer" aria-label={`Ver ${project.name} en GitHub`}><Arrow diagonal /></a>
+              {project.href && <a className="project-link" href={project.href} target="_blank" rel="noreferrer" aria-label={`Ver ${project.name} en GitHub`}><Arrow diagonal /></a>}
             </article>
           ))}</div>
         </section>
