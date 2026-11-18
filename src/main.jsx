@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
 
-const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git']
+const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git', 'Python', 'C#', 'C++']
 
 const projects = [
   {
@@ -68,9 +68,10 @@ function App() {
           <div className="about-grid">
             <h2>Curiosidad técnica.<br /><em>Impacto real.</em></h2>
             <div className="about-copy">
-              <p>Me gusta entender cómo funcionan las cosas y encontrar formas simples de resolver problemas complejos. Combino criterio de ingeniería con atención a la experiencia de las personas.</p>
+              <p>Me gusta entender cómo funcionan las cosas y encontrar formas simples de resolver problemas complejos.
+                 Combino criterio de ingeniería con atención a la experiencia de las personas.</p>
               <p>Actualmente estoy profundizando en desarrollo web y construyendo proyectos que conectan buenas ideas con tecnología práctica.</p>
-              <a className="text-link" href="mailto:tu.correo@ejemplo.com">Conoce más de mí <Arrow diagonal /></a>
+              <a className="text-link" href="mailto:erickandrehernandezortiz@gmail.com">Conoce más de mí <Arrow diagonal /></a>
             </div>
           </div>
           <div className="skills-row"><span className="skills-label">HERRAMIENTAS QUE USO</span><div className="skill-list">{skills.map((skill) => <span key={skill}>{skill}</span>)}</div></div>
