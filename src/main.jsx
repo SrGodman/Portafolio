@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
 
-const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git', 'Python', 'C#', 'C++']
+const skills = ['Java', 'JavaScript', 'React', 'PostgreSQL', 'SQL', 'Git', 'Python', 'C#', 'C++', 'Node.js']
 
 const projects = [
   {
